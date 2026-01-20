@@ -90,7 +90,9 @@ function addDetails(id:number, name: string, email?:string){ // bye keeping ? be
 
     console.log("ID : " ,id);
      console.log("Name : " ,name)
+     if(email!= undefined){
       console.log("EMAIL ID: " ,email);
+}
 
 }
 
